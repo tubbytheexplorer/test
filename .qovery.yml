@@ -1,0 +1,15 @@
+---
+application:
+  name: "test"
+  project: "tubby"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "test"
+  version: "5.7"
+routers:
+- name: "main-test"
+  routes:
+  - application_name: "test"
+    paths:
+    - "/*"
